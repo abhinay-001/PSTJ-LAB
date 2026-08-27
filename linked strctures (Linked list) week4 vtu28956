@@ -1,0 +1,17 @@
+import java.util.*;
+
+class LinkedListDemo {
+    public static void main(String[] args) {
+
+        LinkedList<String> names = new LinkedList<>();
+
+        names.add("Abhinay");
+        names.add("Sai");
+        names.addFirst("Java");
+
+        System.out.println("Linked List: " + names);
+
+        names.removeLast();
+        System.out.println("After removing last: " + names);
+    }
+}
