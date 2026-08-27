@@ -1,0 +1,21 @@
+import java.util.*;
+
+class MapDemo {
+    public static void main(String[] args) {
+
+        HashMap<Integer, String> students = new HashMap<>();
+
+        students.put(101, "Abhinay");
+        students.put(102, "Rahul");
+        students.put(103, "Sai");
+
+        System.out.println("Student Map: " + students);
+
+        System.out.println("Student with ID 101: " 
+                           + students.get(101));
+
+        students.remove(102);
+
+        System.out.println("After deletion: " + students);
+    }
+}
